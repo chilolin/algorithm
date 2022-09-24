@@ -7,4 +7,4 @@ CC = g++
 
 # 実行ファイル生成
 %: 
-	$(CC) -o $(BIN_PATH)$@ $(ROOT_PATH)$@.cpp
+	$(CC) -o $(BIN_PATH)$@ $(ROOT_PATH)$@.cpp -std=c++11
